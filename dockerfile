@@ -13,7 +13,6 @@ RUN apk add --no-cache \
     autoconf \
     automake \
     libc6-compat \
-    libpng16-dev \
     libjpeg-turbo-dev \
     build-base \
     libpng-dev \
