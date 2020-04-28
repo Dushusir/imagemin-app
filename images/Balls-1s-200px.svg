@@ -1,0 +1,17 @@
+<svg class="lds-balls" width="200px" height="200px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" style="animation-play-state: running; animation-delay: 0s; background: none;"><circle cx="80" cy="50" r="5" fill="#e90c59" style="animation-play-state: running; animation-delay: 0s;">
+  <animate attributeName="cx" values="80;50" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="cy" values="50;80" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="fill" values="#e90c59;#fe718d" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+</circle><circle cx="50" cy="80" r="5" fill="#fe718d" style="animation-play-state: running; animation-delay: 0s;">
+  <animate attributeName="cx" values="50;20" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="cy" values="80;50.00000000000001" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="fill" values="#fe718d;#ffe6f5" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+</circle><circle cx="20" cy="50.00000000000001" r="5" fill="#ffe6f5" style="animation-play-state: running; animation-delay: 0s;">
+  <animate attributeName="cx" values="20;49.99999999999999" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="cy" values="50.00000000000001;20" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="fill" values="#ffe6f5;#c2dfd7" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+</circle><circle cx="49.99999999999999" cy="20" r="5" fill="#c2dfd7" style="animation-play-state: running; animation-delay: 0s;">
+  <animate attributeName="cx" values="49.99999999999999;80" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="cy" values="20;49.99999999999999" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+  <animate attributeName="fill" values="#c2dfd7;#e90c59" keyTimes="0;1" dur="1s" repeatCount="indefinite" style="animation-play-state: running; animation-delay: 0s;"></animate>
+</circle></svg>

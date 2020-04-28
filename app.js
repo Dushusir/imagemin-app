@@ -1,13 +1,25 @@
 const imagemin = require('imagemin');
+
+const imageminMozjpeg = require('imagemin-mozjpeg');
 const imageminPngquant = require('imagemin-pngquant');
+const imageminGiflossy = require('imagemin-giflossy');
+const imageminWebp = require('imagemin-webp');
+const imageminSvgo = require('imagemin-svgo');
+
 
 (async () => {
-	const files = await imagemin(['images/*.{jpg,png}'], {
+	const files = await imagemin(['images/*.{jpg,png,gif}'], {
 		destination: 'build/images',
 		plugins: [
-			imageminPngquant({
-				quality: [0.6, 0.8]
-			})
+			imageminMozjpeg({
+                quality: 70
+            }),
+            imageminPngquant(),
+            imageminGiflossy({
+                lossy: 80
+            }),
+            // imageminWebp(),
+            imageminSvgo()
 		]
 	});
 
